@@ -24,7 +24,7 @@ Make these into a bullet point list:
 
 Make it so this chunk shows the plot, but not the source code:
 
-```{r echo=TRUE}
+```{r echo=FALSE}
 plot(1:10)
 ```
 
@@ -36,7 +36,7 @@ Make it so this chunk shows the code, but not the output:
 
 Make it so the file can still knit even though this chunk has an error
 
-```{r error}
+```{r error=TRUE}
 2 + a
 ```
 
